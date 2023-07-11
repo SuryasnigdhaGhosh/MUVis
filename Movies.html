@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>MOVIES</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container"><h1 class="logo">MUVis</h1></div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item"><a href="index.html">Home</a></li>
+                    <li class="menu-list-item"><a href="Movies.html">Movies</a></li>
+                    <li class="menu-list-item"><a href="Series.html">Series</a></li>
+                    <li class="menu-list-item"><a href="Trending.html">Trending</a></li>
+                </ul>
+                
+            </div>
+            
+            <div class="profile-container">
+                <img class="profile-picture" src="img/profile.jpg" width="32px" height="32px">
+                <div class="profile-text-container">
+                    <div class="dropdown">
+                        <button class="dropbtn">Profile
+                            <i id="drop" class="fa-solid fa-caret-down"></i>  
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Account</a>
+                          <a href="#">Manage Profile</a>
+                          <a href="#">Help Center</a>
+                          <a href="#">Sign Out</a>
+                        </div>
+                    </div>  
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-solid fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">        
+        <i class="fa-sharp fa-solid fa-house-user sidebar-items"></i>
+        <i class="fa-solid fa-users sidebar-items"></i>
+        <i class="fa-solid fa-tv sidebar-items"></i>
+        <i class="fa-solid fa-bookmark sidebar-items"></i>
+        <i class="fa-solid fa-cart-shopping sidebar-items"></i>
+        <i class="fa-solid fa-hourglass-start sidebar-items"></i>
+    </div>
+        
+        <div class="container">
+            
+            <h1 class="title-movies">SEARCH FOR MOVIES</h1>
+            <input  id="search-movies" type="text" action="/action_page.php" placeholder="    Title,Genres..."><i id="search-icon-movies" class="fa-solid fa-magnifying-glass"></i>
+            <div><button class="search-button-movies">SEARCH</button></div>
+             <!-- testimonial -->
+            <div class="testimonial">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="movie-img"src="img/f-t-1.png" alt="">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem molestiae iusto natus sed perferendis. In mollitia modi nisi ex vero corporis, iste, nam rem, accusamus minima illum maiores quibusdam neque quo? Ut libero hic iste iusto nam debitis, nobis explicabo .
+
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                
+                            </div>
+                            
+                            <h3>sean parker</h3>
+                        </div>
+                        <div class="col-3">
+                            <img class="movie-img"src="img/4.jpg" alt="">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem molestiae iusto natus sed perferendis. In mollitia modi nisi ex vero corporis, iste, nam rem, accusamus minima illum maiores quibusdam neque quo? Ut libero hic iste iusto nam debitis, nobis explicabo .
+
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                            
+                            <h3>mike smith</h3>
+                        </div>
+                        <div class="col-3">
+                            <img class="movie-img"src="img/1.jpeg" alt="">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem molestiae iusto natus sed perferendis. In mollitia modi nisi ex vero corporis, iste, nam rem, accusamus minima illum maiores quibusdam neque quo? Ut libero hic iste iusto nam debitis, nobis explicabo .
+
+                            </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <i class="fa-regular fa-star"></i>
+
+                            </div>
+                            
+                            <h3>Mable joe</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-container-movies">
+                <div class="movie-list-container">
+                    <h1 class="movie-list-title">MOVIES FOR YOU </h1>
+                    <div class="movie-list-wrapper">
+                        <div class="movie-list">
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/1.jpeg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write. However, when he finds out about the AI's ability to learn and adapt, he falls in love with it.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/2.jpeg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/3.jpg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/4.jpg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/5.jpg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/6.jpg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/7.jpg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-angle-right arrow"></i>
+                    </div>
+                </div>
+                <div class="movie-list-container">
+                    <h1 class="movie-list-title">TRENDING</h1>
+                    <div class="movie-list-wrapper">
+                        <div class="movie-list">
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/1.jpeg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write. However, when he finds out about the AI's ability to learn and adapt, he falls in love with it.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/2.jpeg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/3.jpg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/4.jpg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/5.jpg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/6.jpg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                            <div class="movie-list-item">
+                                <img class="movie-list-item-img"src="img/7.jpg" alt="">
+                                <span class="movie-list-item-title">Her</span>
+                                <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                                <button class="movie-list-item-button">WATCH</button>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-angle-right arrow"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+        <script src="app.js"></script>
+    </div>
+    <div class="footer">
+       
+        <div class="icons">
+            <a id="icon" class="fa-brands fa-youtube"></a>
+            <a id="icon" class="fa-brands fa-facebook"></a>
+            <a id="icon" class="fa-brands fa-instagram"></a> 
+            <a id="icon" class="fa-brands fa-whatsapp"></a>
+            <a id="icon" class="fa-brands fa-twitter"></a>
+        </div>
+        <ul class="footer-link">
+            <li class="footer-link-wrapper">Audio Description</li>
+            <li class="footer-link-wrapper">Help Centre</li>
+            <li class="footer-link-wrapper">Gift Cards</li>
+            <li class="footer-link-wrapper">Media Centre</li>
+            <li class="footer-link-wrapper">Investor Relations</li>
+            <li class="footer-link-wrapper">Jobs</li>
+            <li class="footer-link-wrapper">Terms of Use</li>
+            <li class="footer-link-wrapper">Privacy</li>
+            <li class="footer-link-wrapper">Legal Notices</li>
+            <li class="footer-link-wrapper">Cookie Preferences</li>
+            <li class="footer-link-wrapper">Corporate Information</li>
+            <li class="footer-link-wrapper">Contact Us</li>
+        </ul>
+        <div class="service-code">
+            <button class="service-code-button">Service Code</button>
+        </div>
+        <div class="footer-copyright">
+            <span class="footer-copyright">© 2022-2022 MUVis, Inc.</span>
+        </div>
+    </div>
+</body>
+</html>

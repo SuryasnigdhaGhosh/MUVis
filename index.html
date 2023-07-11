@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlye.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>MOVIES</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container"><h1 class="logo">MUVis</h1></div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item"><a href="index.html">Home</a></li>
+                    <li class="menu-list-item"><a href="Movies.html">Movies</a></li>
+                    <li class="menu-list-item"><a href="Series.html">Series</a></li>
+                    <li class="menu-list-item"><a href="Trending.html">Trending</a></li>
+                </ul>
+                
+            </div>
+            <input  id="search" type="text" action="/action_page.php" placeholder="Title,People,Genres..."><i id="search-button" class="fa-solid fa-magnifying-glass"></i>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/profile.jpg" width="32px" height="32px">
+                <div class="profile-text-container">
+                    <div class="dropdown">
+                        <button class="dropbtn">Profile
+                            <i id="drop" class="fa-solid fa-caret-down"></i>  
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">Account</a>
+                          <a href="#">Manage Profile</a>
+                          <a href="#">Help Center</a>
+                          <a href="#">Sign Out</a>
+                        </div>
+                    </div>  
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon"></i>
+                    <i class="fa-solid fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="sidebar">        
+        <i class="fa-sharp fa-solid fa-house-user sidebar-items"></i>
+        <i class="fa-solid fa-users sidebar-items"></i>
+        <i class="fa-solid fa-tv sidebar-items"></i>
+        <i class="fa-solid fa-bookmark sidebar-items"></i>
+        <i class="fa-solid fa-cart-shopping sidebar-items"></i>
+        <i class="fa-solid fa-hourglass-start sidebar-items"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content" style="background:linear-gradient(to bottom, rgba(0,0,0,0),#151515),url(img/f-1.jpg)">
+                <img class="featured-title" src="img/f-t-1.png" >
+                <div class="featured-desc">When Django, a slave, is freed, he joins forces with a bounty hunter to rescue his wife, who has been enslaved by Calvin, a hard-hearted plantation owner.</div>
+                <a class="featured-button">WATCH</a>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write. However, when he finds out about the AI's ability to learn and adapt, he falls in love with it.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-angle-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TOP PICKS FOR YOU</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write. However, when he finds out about the AI's ability to learn and adapt, he falls in love with it.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-angle-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content" style="background:linear-gradient(to bottom, rgba(0,0,0,0),#151515),url(img/f-2.jpg)">
+                <img class="featured-title" src="img/f-t-2.png" >
+                <div class="featured-desc">When two children go missing in a small German town, its sinful past is exposed along with the double lives and fractured relationships that exist among four families as they search for the kids. The mystery-drama series introduces an intricate puzzle filled with twists that includes a web of curious characters, all of whom have a connection to the town's troubled history -- whether they know it or not.</div>
+                <button class="featured-button">WATCH</button>
+            </div> 
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TRENDING</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write. However, when he finds out about the AI's ability to learn and adapt, he falls in love with it.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-angle-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">POPULAR</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write. However, when he finds out about the AI's ability to learn and adapt, he falls in love with it.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img"src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Theodore Twombly, an introverted writer, buys an Artificial Intelligence system to help him write.</p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-angle-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+    <div class="footer">
+       
+        <div class="icons">
+            <a id="icon" class="fa-brands fa-youtube"></a>
+            <a id="icon" class="fa-brands fa-facebook"></a>
+            <a id="icon" class="fa-brands fa-instagram"></a> 
+            <a id="icon" class="fa-brands fa-whatsapp"></a>
+            <a id="icon" class="fa-brands fa-twitter"></a>
+        </div>
+        <ul class="footer-link">
+            <li class="footer-link-wrapper">Audio Description</li>
+            <li class="footer-link-wrapper">Help Centre</li>
+            <li class="footer-link-wrapper">Gift Cards</li>
+            <li class="footer-link-wrapper">Media Centre</li>
+            <li class="footer-link-wrapper">Investor Relations</li>
+            <li class="footer-link-wrapper">Jobs</li>
+            <li class="footer-link-wrapper">Terms of Use</li>
+            <li class="footer-link-wrapper">Privacy</li>
+            <li class="footer-link-wrapper">Legal Notices</li>
+            <li class="footer-link-wrapper">Cookie Preferences</li>
+            <li class="footer-link-wrapper">Corporate Information</li>
+            <li class="footer-link-wrapper">Contact Us</li>
+        </ul>
+        <div class="service-code">
+            <button class="service-code-button">Service Code</button>
+        </div>
+        <div class="footer-copyright">
+            <span class="footer-copyright">© 2022-2022 MUVis, Inc.</span>
+        </div>
+    </div>
+</body>
+</html>
