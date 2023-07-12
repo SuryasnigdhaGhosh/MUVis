@@ -212,9 +212,6 @@ a{
 .container{
     background-color: #151515;  
     min-height: calc(100vh - 50px);
-    max-width: 2160px;
-    margin: auto;
-    
     }
 
 .content-container{
@@ -567,7 +564,7 @@ a{
 
 
 .content-container-movies{
-    margin-top: 80px;
+    margin-top: 50px;
     color: white;
 }
 
