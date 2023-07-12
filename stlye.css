@@ -212,10 +212,10 @@ a{
 .container{
     background-color: #151515;  
     min-height: calc(100vh - 50px);
+    
     }
 
 .content-container{
-    
     color: white;
 }
 .featured-content{
@@ -526,18 +526,6 @@ a{
   }
 
 
-#search-icon-movies{
-    color: rgba(255, 255, 255, 0.281);  
-    padding-left: 5px; 
-    
-}
-
-#search-icon-movies:hover{
-    cursor: pointer;
-    transform: scale(1.2);
-    transition: all 0.1s ease;
-    
-}
 
 .search-button-movies{
     font-size: large;
