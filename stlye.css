@@ -212,7 +212,7 @@ a{
 .container{
     background-color: #151515;  
     min-height: calc(100vh - 50px);
-    max-width: 1440px;
+    max-width: 2160px;
     margin: auto;
     
     }
@@ -257,6 +257,8 @@ a{
 .movie-list-container{
     padding: 10px;
     padding-top: 30px;
+    max-width: 2160px;
+    margin: auto;
 
 }
 .movie-list-title{
@@ -427,9 +429,11 @@ a{
 
 
 .icons{
+    padding-bottom: 20px;
     padding-left:10px ;
     font-size: 140%;
     margin-bottom:10px;
+    position: relative;
 }
 
 #icon:hover{
@@ -442,6 +446,18 @@ a{
 .icons a{
     padding-right:20px;
 }
+.icons::after{
+    content: '';
+    background-color: #585758b2;
+    width: 520px;
+    height: 3px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .footer-link{
    margin: auto;
    list-style: none;
